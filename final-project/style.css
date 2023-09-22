@@ -1,0 +1,75 @@
+body {
+    background-color: 	#e8ab31;
+}
+
+.navbar {
+    background-color: 	#fffae3;
+   display: flex;
+   justify-content: left;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h1:hover {
+    font-size: 5em;
+    color:#ffe7b6;
+}
+
+h4:hover {
+    font-size: 2em;
+    color: blue;
+}
+
+.profilePic {
+    float: right;
+}
+
+.mainInfo {
+    margin: 50px 200px;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+}
+
+.col-12 {
+    background-color: #ffe7b6;
+    display: grid;
+    justify-content: center;
+}
+
+.techSkills {
+    border: 5px solid blue;
+    text-align: center;
+}
+
+.techSkills:hover {
+    background-color: #f76505;
+}
+
+.softSkills {
+    border: 5px solid blue;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+}
+
+.softSkills:hover {
+    background-color: #78c4fd;
+}
+
+.hobbies {
+    border: 5px solid blue;
+    text-align: center;
+}
+
+.hobbies:hover {
+    background-color: #f76505;
+}
+
+#randomAdvice {
+    background-color: #f76505;
+   text-align: center;
+   margin: 5px;
+}
